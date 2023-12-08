@@ -1,0 +1,12 @@
+How long does it take to double every number in a given array?
+- insert = 1.015501062 s
+- append = 28.171084 ms
+
+doubleAppend (func1) seems to be scaling better than 
+doubleInsert (func2).There are times that doubleAppend 
+takes longer, but overall, doubleAppend is scaling better. 
+
+Extra Credit research:
+.Push does not change the index of every item in an array.
+.Unshift change the index of every item in the array. This
+process takes more time to process. 
